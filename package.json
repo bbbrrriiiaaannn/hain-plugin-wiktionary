@@ -1,0 +1,32 @@
+{
+  "name": "hain-plugin-wiktionary",
+  "version": "0.1.0",
+  "description": "A Hain plugin to look up word definitions on Wiktionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbbrrriiiaaannn/hain-plugin-wiktionary.git"
+  },
+  "author": "Brian Seward <hello@brianseward.com> (https://brianseward.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbbrrriiiaaannn/hain-plugin-wiktionary/issues"
+  },
+  "homepage": "https://github.com/bbbrrriiiaaannn/hain-plugin-wiktionary#readme",
+  "dependencies": {
+    "wiktionary-node": "^1.1.8"
+  },
+
+  "keywords": [
+    "hain-0.6.0", "hain-plugin"
+  ],
+  "hain": {
+    "prefix": "/dict",
+    "usage": "look up a definition on Wiktionary",
+    "icon": "#fa fa-book",
+    "redirect": "/dict "
+  }
+}
