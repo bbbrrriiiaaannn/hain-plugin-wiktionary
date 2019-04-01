@@ -21,7 +21,7 @@
   },
 
   "keywords": [
-    "hain-0.6.0", "hain-plugin"
+    "hain-0.6.0", "hain-plugin", "definitions", "dictionary", "hain", "wiktionary"
   ],
   "hain": {
     "prefix": "/dict",
