@@ -4,7 +4,7 @@
   "description": "A Hain plugin to look up word definitions on Wiktionary",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
